@@ -21,4 +21,4 @@ function HtmlSelectElement(items = []) {
 
 
 HtmlSelectElement.prototype = new HtmlElement()
-// HtmlSelecteElement.prototype.constructor = HtmlSelecteElement
+HtmlSelectElement.prototype.constructor = HtmlSelectElement
